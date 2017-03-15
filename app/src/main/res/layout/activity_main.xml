@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GridView xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main_gridview"
-    android:numColumns="auto_fit"
-    android:columnWidth="90dp"
-    android:stretchMode="columnWidth"
-    android:verticalSpacing="10dp"
-    android:horizontalSpacing="10dp"
-    android:gravity="center"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.terz99.gridview.MainActivity"/>
+    android:numColumns="auto_fit"
+    android:verticalSpacing="16dp"
+    android:horizontalSpacing="16dp"
+    android:paddingBottom="16dp"
+    android:paddingTop="16dp"
+    android:paddingRight="16dp"
+    android:paddingLeft="16dp"
+    />
